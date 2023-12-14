@@ -1,0 +1,60 @@
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: e0c1875e62b940418c7df434b924beaa.vfs.cloud9.us-east-1.amazonaws.com
+Started GET "/" for 146.111.194.4 at 2023-12-14 18:32:31 +0000
+Cannot render console from 146.111.194.4! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 374)
+Completed 200 OK in 49ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 4920)
+
+
+Started GET "/" for 146.111.194.4 at 2023-12-14 18:32:33 +0000
+Cannot render console from 146.111.194.4! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 210)
+
+
+Started GET "/articles" for 146.111.194.4 at 2023-12-14 18:39:39 +0000
+Cannot render console from 146.111.194.4! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 1267.6ms | Allocations: 95277)
+Completed 200 OK in 1283ms (Views: 1282.1ms | ActiveRecord: 0.0ms | Allocations: 96260)
+
+
+Started GET "/" for 146.111.194.4 at 2023-12-14 18:40:18 +0000
+Cannot render console from 146.111.194.4! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-3.2.1/gems/railties-7.1.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 264)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 830)
+
+
+Started GET "/" for 146.111.194.4 at 2023-12-14 18:41:00 +0000
+Cannot render console from 146.111.194.4! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 16217)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.0ms | Allocations: 17124)
+
+
